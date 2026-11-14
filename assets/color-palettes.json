@@ -1,0 +1,229 @@
+{
+  "schemaVersion": 1,
+  "description": "自配的 UI 原型基础色。按任务选择，允许调整；不能代替真实组件和完整页面验证。",
+  "semantic": {
+    "light": {
+      "success": {
+        "background": "#E5F3EB",
+        "text": "#19734A"
+      },
+      "info": {
+        "background": "#EAF0FF",
+        "text": "#2457D6"
+      },
+      "warning": {
+        "background": "#FFF4D6",
+        "text": "#8A5700"
+      },
+      "danger": {
+        "background": "#FDECEF",
+        "text": "#B42335"
+      }
+    },
+    "dark": {
+      "success": {
+        "background": "#18382A",
+        "text": "#8CD4A5"
+      },
+      "info": {
+        "background": "#243350",
+        "text": "#9DBBFF"
+      },
+      "warning": {
+        "background": "#3D3218",
+        "text": "#F2CC70"
+      },
+      "danger": {
+        "background": "#44232D",
+        "text": "#FF9CA6"
+      }
+    }
+  },
+  "palettes": [
+    {
+      "id": "cobalt",
+      "name": "冰白 · 钴蓝",
+      "mode": "light",
+      "suggestedUse": "后台、数据工具、效率产品",
+      "notes": "蓝色集中用于主操作、链接与选中状态，内容区保持冷白与浅灰。",
+      "tokens": {
+        "background": "#F5F7FC",
+        "surface": "#FFFFFF",
+        "text": "#1E2B45",
+        "muted": "#5B6780",
+        "primary": "#2457D6",
+        "primaryHover": "#1C46B4",
+        "primaryPressed": "#193FA2",
+        "onPrimary": "#FFFFFF",
+        "selection": "#E8EEFF",
+        "borderSubtle": "#D6DFEB",
+        "borderControl": "#8290A6",
+        "focusRing": "#2457D6",
+        "disabledBackground": "#E7EBF0",
+        "disabledText": "#6F7B8A"
+      }
+    },
+    {
+      "id": "teal",
+      "name": "雾白 · 深青",
+      "mode": "light",
+      "suggestedUse": "AI 助手、知识库、管理工具",
+      "notes": "背景只带很轻的绿灰，深青用于操作；成功状态同时用文字或图标区分。",
+      "tokens": {
+        "background": "#F3F8F7",
+        "surface": "#FFFFFF",
+        "text": "#183C38",
+        "muted": "#536D68",
+        "primary": "#0F766E",
+        "primaryHover": "#0B5E58",
+        "primaryPressed": "#0A554F",
+        "onPrimary": "#FFFFFF",
+        "selection": "#DFF1EC",
+        "borderSubtle": "#CCDED8",
+        "borderControl": "#708B83",
+        "focusRing": "#0F766E",
+        "disabledBackground": "#E7EBF0",
+        "disabledText": "#6F7B8A"
+      }
+    },
+    {
+      "id": "forest",
+      "name": "浅灰 · 森林绿",
+      "mode": "light",
+      "suggestedUse": "生活服务、阅读、健康与长期记录",
+      "notes": "大面积使用近中性灰，绿色留给操作与局部强调，避免所有模块都染绿。",
+      "tokens": {
+        "background": "#F5F7F4",
+        "surface": "#FFFFFF",
+        "text": "#263C2B",
+        "muted": "#5B6D5D",
+        "primary": "#356A43",
+        "primaryHover": "#285534",
+        "primaryPressed": "#244D2F",
+        "onPrimary": "#FFFFFF",
+        "selection": "#E3EEE1",
+        "borderSubtle": "#D1DDCE",
+        "borderControl": "#7C917C",
+        "focusRing": "#356A43",
+        "disabledBackground": "#E7EBF0",
+        "disabledText": "#6F7B8A"
+      }
+    },
+    {
+      "id": "iris",
+      "name": "冷灰 · 鸢尾紫",
+      "mode": "light",
+      "suggestedUse": "创作、笔记、学习与设计工具",
+      "notes": "单一、收敛的紫色实色用于操作；留白和文字承担主体，不依赖大面积紫色渐变。",
+      "tokens": {
+        "background": "#F7F7FB",
+        "surface": "#FFFFFF",
+        "text": "#2D2945",
+        "muted": "#67617A",
+        "primary": "#6554C0",
+        "primaryHover": "#5142A4",
+        "primaryPressed": "#493B94",
+        "onPrimary": "#FFFFFF",
+        "selection": "#ECE9F8",
+        "borderSubtle": "#DDD9EA",
+        "borderControl": "#8C829F",
+        "focusRing": "#6554C0",
+        "disabledBackground": "#E7EBF0",
+        "disabledText": "#6F7B8A"
+      }
+    },
+    {
+      "id": "navy",
+      "name": "珍珠灰 · 海军蓝",
+      "mode": "light",
+      "suggestedUse": "专业服务、品牌官网、企业门户",
+      "notes": "海军蓝承担操作；金色只作少量装饰，不能默认配白色小字。",
+      "tokens": {
+        "background": "#F6F7F9",
+        "surface": "#FFFFFF",
+        "text": "#24324B",
+        "muted": "#59677D",
+        "primary": "#284B63",
+        "primaryHover": "#1B394F",
+        "primaryPressed": "#183347",
+        "onPrimary": "#FFFFFF",
+        "selection": "#E7EEF3",
+        "borderSubtle": "#D6DEE6",
+        "borderControl": "#7D8D9D",
+        "focusRing": "#284B63",
+        "disabledBackground": "#E7EBF0",
+        "disabledText": "#6F7B8A",
+        "accentDecoration": "#B58B3B"
+      }
+    },
+    {
+      "id": "plum",
+      "name": "淡灰粉 · 桑葚紫",
+      "mode": "light",
+      "suggestedUse": "文化内容、作品集、生活方式品牌",
+      "notes": "粉色仅作为非常浅的底色；桑葚紫用于操作，错误状态保留独立的提示方式。",
+      "tokens": {
+        "background": "#FAF7FA",
+        "surface": "#FFFFFF",
+        "text": "#422C3C",
+        "muted": "#775E70",
+        "primary": "#8C3C68",
+        "primaryHover": "#723052",
+        "primaryPressed": "#672B4A",
+        "onPrimary": "#FFFFFF",
+        "selection": "#F3E6EE",
+        "borderSubtle": "#E6D4DF",
+        "borderControl": "#A17D92",
+        "focusRing": "#8C3C68",
+        "disabledBackground": "#E7EBF0",
+        "disabledText": "#6F7B8A"
+      }
+    },
+    {
+      "id": "midnight",
+      "name": "午夜蓝 · 冰青",
+      "mode": "dark",
+      "suggestedUse": "开发工具、监控、技术产品",
+      "notes": "亮青按钮使用深色文字，浮层比背景更亮；深蓝底不建议用于严肃的调色判断区域。",
+      "tokens": {
+        "background": "#0D1626",
+        "surface": "#152239",
+        "text": "#E7EEF8",
+        "muted": "#A6B8CF",
+        "primary": "#65D2E4",
+        "primaryHover": "#8DE3EF",
+        "primaryPressed": "#98E6F1",
+        "onPrimary": "#102B35",
+        "selection": "#203B50",
+        "borderSubtle": "#2D415D",
+        "borderControl": "#607C9C",
+        "focusRing": "#65D2E4",
+        "disabledBackground": "#333B46",
+        "disabledText": "#939CA9"
+      }
+    },
+    {
+      "id": "graphite",
+      "name": "石墨灰 · 青柠",
+      "mode": "dark",
+      "suggestedUse": "媒体工具、编辑器、专业工作台",
+      "notes": "青柠只用于关键操作和少量标记；预览与调色画布应另设更中性的灰色环境。",
+      "tokens": {
+        "background": "#191B1F",
+        "surface": "#24272D",
+        "text": "#EEF0F3",
+        "muted": "#AEB5BF",
+        "primary": "#C8E677",
+        "primaryHover": "#D6F18F",
+        "primaryPressed": "#DAF29A",
+        "onPrimary": "#202817",
+        "selection": "#333F2A",
+        "borderSubtle": "#3B424B",
+        "borderControl": "#73808E",
+        "focusRing": "#C8E677",
+        "disabledBackground": "#333B46",
+        "disabledText": "#939CA9"
+      }
+    }
+  ]
+}
